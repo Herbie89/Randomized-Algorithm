@@ -1,8 +1,8 @@
 from random import randint
 
 def equation(x):
-	#return (x - 300) * (x + 4000) * (x - 50)
-	return x - 10
+	return (x - 300) * (x + 4000) * (x - 50)
+	#return x - 10
 
 
 count = 0
