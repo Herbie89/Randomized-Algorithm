@@ -12,6 +12,7 @@ while(flag):
 	print newx
 	if fofx > 0: x1 = newx
 	if fofx < 0: x2 = newx
-	if abs(fofx) < 10 ** -2: 
+	#print "abs " +  str(fofx)
+	if abs(fofx) < 1: 
 		flag = False
 print count

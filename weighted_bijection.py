@@ -1,5 +1,5 @@
 def equation(x):
-	return x - 10
+	return (x - 300) * (x + 4000) * (x - 50)
 
 count = 0
 
@@ -14,7 +14,7 @@ while(flag):
 	newx = ( abs(fofx1) / denom ) * x1 + ( abs(fofx2) / denom ) * x2
 	print newx
 	fofx = equation(newx)
-	if abs(fofx) < 10 ** -2: 
+	if abs(fofx) < 1: 
 		flag = False
 	if fofx > 0: x1 = newx
 	if fofx < 0: x2 = newx

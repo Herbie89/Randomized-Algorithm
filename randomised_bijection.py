@@ -1,9 +1,9 @@
 from random import randint
 
 def equation(x):
-	return (x - 300) * (x + 4000) * (x - 50)
+	return (x - 2) * (x - 3)
+	#return (x - 300) * (x + 4000) * (x - 50)
 	#return x - 10
-
 
 count = 0
 bool1, bool2 = True, True
@@ -28,4 +28,4 @@ while(flag):
 	if fofx < 0: x2 = newx
 	if fofx == 0: 
 		flag = False
-print count
+print "Number of iterations is " + str(count)
